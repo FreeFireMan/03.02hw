@@ -47,3 +47,35 @@ for (const numI of num) {
 for (const strI of str) {
     console.log(strI);
 } */
+
+/* #9 Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі. */
+/* const mix = ['a', 12, true, ['ddd', 72, false], 'e', 'f', -868, false, 'i', 0.77];
+for (const mixI of mix) {
+    console.log(mixI);
+} */
+
+/* #10 Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи */
+/* const mix = ['a', 12, true, 'ddd', false, 'f', -868, false, 'i', 0.77];
+for (let i = 0; i < mix.length; i++) {
+    if (typeof(mix[i]) === 'boolean') {
+        console.log(mix[i]);
+    }
+} */
+
+/* #11 Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи */
+/* const mix = ['a', 12, true, 'ddd', false, 'f', -868, false, 'i', 0.77];
+for (let i = 0; i < mix.length; i++) {
+    if (typeof(mix[i]) === 'number') {
+        console.log(mix[i]);
+    }
+} */
+
+/* #12 Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи */
+/* const mix = ['a', 12, true, 'ddd', false, 'f', -868, false, 'i', 0.77];
+for (let i = 0; i < mix.length; i++) {
+    if (typeof(mix[i]) === 'string') {
+        console.log(mix[i]);
+    }
+} */
+
+/* #13 */
