@@ -78,4 +78,71 @@ for (let i = 0; i < mix.length; i++) {
     }
 } */
 
-/* #13 */
+/* #13 Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі. */
+/* const arr = [];
+arr[0] = 'a';
+arr[1] = 123;
+arr[2] = 'bb';
+arr[3] = true;
+arr[4] = ['d', 27, 'g'];
+arr[5] = 'hello';
+arr[6] = 'bye';
+arr[7] = -7362.2;
+arr[8] = false;
+arr[9] = 653;
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+} */
+
+/* #14 Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write */
+/* for (let i = 0; i < 10; i++) {
+    console.log(i);
+    document.write(i + '<br>');
+} */
+
+/* #15 Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write */
+/* for (let i = 0; i < 100; i++) {
+    console.log(i);
+    document.write(i + '<br>');
+} */
+
+/* #16 Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write */
+/* for (let i = 0; i < 100; i = i + 2) {
+    console.log(i);
+    document.write(i + '<br>');
+} */
+
+/* #17 Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write */
+/* for (let i = 0; i < 100; i = i + 2) {
+    console.log(i);
+    document.write(i + '<br>');
+} */
+
+/* #18 Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write */
+/* for (let i = 1; i < 100; i = i + 2) {
+    console.log(i);
+    document.write(i + '<br>');
+} */
+
+/* #19 Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди) */
+/* for (let i = 0; i < 2; i++) {
+    for (let j = 0; j < 60; j++) {
+        console.log(`${i}:${j}`);
+    }
+} */
+
+/* #20 Відтворити роботу годинника, відрахувавши  2 години 20 хвилини (3 цикли! 1й - години, 2й - хвилини, 3й - секунди) */
+/* for (let i = 0; i < 2; i++) {
+    for (let j = 0; j < 60; j++) {
+        for (let y = 0; y < 60; y++) {
+            document.write(`${i}:${j}:${y} <br>`);
+        }
+    }
+}
+for (let i = 2; i < 3; i++) {
+    for (let j = 0; j < 20; j++) {
+        for (let y = 0; y < 60; y++) {
+            document.write(`${i}:${j}:${y} <br>`);
+        }
+    }
+} */
